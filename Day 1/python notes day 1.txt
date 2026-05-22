@@ -1,0 +1,56 @@
+class is a blue print it is a group of attributes and values
+object is an instance of a class
+abstraction means hiding the complexity
+
+Token:
+------
+the smallest unit of a program is called token
+
+ex:
+----
+n=int(input())
+if(n%2==0):
+  print("even")
+else:
+  print("odd")
+
+tokens are divided into 5 types:
+1.identifiers : var,function name,class name,module name,package name
+2.literal : int,float,double,str,boolean,list
+3.keywords: if,else,for,from
+4.operations: +,-,*,%,<,<=,==
+5.special characters:(),'
+
+variable:
+---------
+variable means container that storing some values
+
+#-single line comments
+'''-multiple line commands
+
+
+datatypes:
+----------
+num
+----
+int
+float
+complex
+
+seq
+-----
+str
+list
+tuple
+
+mapping
+--------
+set- frozenset
+dict
+
+None
+bool
+
+
+
+

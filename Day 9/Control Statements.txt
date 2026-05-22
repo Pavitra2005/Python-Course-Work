@@ -1,0 +1,19 @@
+Control Statements:
+-------------------
+1.iterating
+2.controls the flow of execution
+
+1.for loop:
+------------
+
+syntax:
+--------
+for var in seq:
+  #stmts
+
+*seq can be str,list,tuple,set,dict,range()
+
+
+for var in enumerate(seq):
+   #statements
+

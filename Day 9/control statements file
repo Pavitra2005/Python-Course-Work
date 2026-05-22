@@ -1,0 +1,221 @@
+Python 3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+s='python programming'
+s
+'python programming'
+l=[1,2,3,4,5]
+for i in l:
+    print(i)
+
+    
+1
+2
+3
+4
+5
+t=(1,2,3,4,5)
+for i in t:
+    print(i)
+
+    
+1
+2
+3
+4
+5
+s={1,2,3,4,5,6}
+for i in s:
+    print(i)
+
+    
+1
+2
+3
+4
+5
+6
+d={1:2,3:5,4:6}
+for i in d:
+    print(i)
+
+    
+1
+3
+4
+for i in d:
+    print(i,d[i])
+
+    
+1 2
+3 5
+4 6
+s='python'
+for i in s:
+    print(i)
+
+    
+p
+y
+t
+h
+o
+n
+for i in enumerate(s):
+    print(i)
+
+    
+(0, 'p')
+(1, 'y')
+(2, 't')
+(3, 'h')
+(4, 'o')
+(5, 'n')
+for i in enumerate(t):
+    print(i)
+
+    
+(0, 1)
+(1, 2)
+(2, 3)
+(3, 4)
+(4, 5)
+for i in enumerate(t)
+SyntaxError: expected ':'
+for i in enumerate(t):
+    print(i[0],i[1])
+
+    
+0 1
+1 2
+2 3
+3 4
+4 5
+for i in enumerate(s):
+    print(i[0],i[1])
+
+    
+0 p
+1 y
+2 t
+3 h
+4 o
+5 n
+l=[323,3424,435,34,43,24,34,54]
+for i in enumerate(l):
+    print(i[0],i[1])
+
+    
+0 323
+1 3424
+2 435
+3 34
+4 43
+5 24
+6 34
+7 54
+t=(3,4,5,2,7,8,9,1)
+for i in enumerate(t):
+    print(i[0],i[1],i)
+
+    
+0 3 (0, 3)
+1 4 (1, 4)
+2 5 (2, 5)
+3 2 (3, 2)
+4 7 (4, 7)
+5 8 (5, 8)
+6 9 (6, 9)
+7 1 (7, 1)
+s={23,4,53,353,34,355,43,232}
+for s in enumerate(s):
+    print(i[0],i[1],i)
+
+    
+7 1 (7, 1)
+7 1 (7, 1)
+7 1 (7, 1)
+7 1 (7, 1)
+7 1 (7, 1)
+7 1 (7, 1)
+7 1 (7, 1)
+7 1 (7, 1)
+s={23,4,53,353,34,355,43,232}
+for i in enumerate(s):
+    print(i[0],i[1],i)
+    
+SyntaxError: multiple statements found while compiling a single statement
+s={23,4,53,353,34,355,43,232}
+for i in enumerate(s):
+    print(i[0],i[1],i)
+    
+SyntaxError: multiple statements found while compiling a single statement
+s={2,3,4,5,6}
+for i in enumerate(s):
+    print(i[0],i[1],i)
+
+    
+0 2 (0, 2)
+1 3 (1, 3)
+2 4 (2, 4)
+3 5 (3, 5)
+4 6 (4, 6)
+d={1:2,3:4,5:6,7:8}
+for i in enumerate(d):
+    print(i[0],i[1],i[d[1]])
+
+    
+Traceback (most recent call last):
+  File "<pyshell#59>", line 2, in <module>
+    print(i[0],i[1],i[d[1]])
+IndexError: tuple index out of range
+d={1:2,3:4,5:6,7:8}
+for i in enumerate(d):
+    
+SyntaxError: multiple statements found while compiling a single statement
+d={1:2,2:3,4:5}
+>>> for i in enumerate(d):
+...     print(i[0],i[1])
+... 
+...     
+0 1
+1 2
+2 4
+>>> for i in range(1,9,1):
+...     print(i)
+... 
+...     
+1
+2
+3
+4
+5
+6
+7
+8
+>>> for i in range(1,100,2):
+...     print(i,end=' ')
+... 
+...     
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99 
+>>> s="python"
+>>> len(s)
+6
+>>> for i in range(len(s)):
+...     print(i)
+... 
+...     
+0
+1
+2
+3
+4
+5
+>>> for i in range(1,9):
+...     pass
+... 
+>>> def function():
+...     pass
+... 
+>>> class Instagram():
+...     pass
+... 

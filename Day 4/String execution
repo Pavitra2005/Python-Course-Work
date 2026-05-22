@@ -1,0 +1,226 @@
+Python 3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+s='python'
+type(s)
+<class 'str'>
+fname='abc'
+lname='xyz'
+fname+lname
+'abcxyz'
+fname*10
+'abcabcabcabcabcabcabcabcabcabc'
+s=''
+s
+''
+a='python'
+a=a+'lang'
+a
+'pythonlang'
+names='niharika pavitra sreeja geetha srinidhi mounika'
+names[0]
+'n'
+names[-2]
+'k'
+names[-1]
+'a'
+names[9]
+'p'
+names[11]
+'v'
+names[21]
+'j'
+names[0:8:1]
+'niharika'
+names[9:16:1]
+'pavitra'
+names[17:23:1]
+'sreeja'
+names[-7:}
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+names[-7:]
+'mounika'
+names[-16:-8]
+'srinidhi'
+names[::-1]
+'akinuom ihdinirs ahteeg ajeers artivap akirahin'
+names[-1:-8]
+''
+names[-1:-8:-1]
+'akinuom'
+names[-9:-16:-1]
+'ihdinir'
+names[-9:-17:-1]
+'ihdinirs'
+names[-18:-25:-1]
+'ahteeg '
+names[24:30]
+'geetha'
+names[31:40]
+'srinidhi '
+names
+'niharika pavitra sreeja geetha srinidhi mounika'
+'pavitra' in names
+True
+'niharika' in names
+True
+'sravani' in names
+False
+'sania' in names
+False
+sorted[l]
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    sorted[l]
+NameError: name 'l' is not defined
+sorted[names]
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    sorted[names]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+sorted(names)
+[' ', ' ', ' ', ' ', ' ', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'd', 'e', 'e', 'e', 'e', 'g', 'h', 'h', 'h', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'j', 'k', 'k', 'm', 'n', 'n', 'n', 'o', 'p', 'r', 'r', 'r', 'r', 's', 's', 't', 't', 'u', 'v']
+chr(89)
+'Y'
+len(names)
+47
+order(a)
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    order(a)
+NameError: name 'order' is not defined
+ord(a)
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    ord(a)
+TypeError: ord() expected a character, but string of length 10 found
+ord('a')
+97
+chr(100)
+'d'
+chr(50)
+'2'
+ord('A')
+65
+chr(99)
+'c'
+mac(names)
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    mac(names)
+NameError: name 'mac' is not defined. Did you mean: 'max'?
+max(names)
+'v'
+min(names)
+' '
+names='Niharika Pavitra Sreeja'
+names
+'Niharika Pavitra Sreeja'
+names.upper()
+'NIHARIKA PAVITRA SREEJA'
+names.lower()
+'niharika pavitra sreeja'
+l='niharika pavitra sreeja'
+l
+'niharika pavitra sreeja'
+l.capitalize()
+'Niharika pavitra sreeja'
+l.title()
+'Niharika Pavitra Sreeja'
+names.swapcase()
+'nIHARIKA pAVITRA sREEJA'
+names.casefold()
+'niharika pavitra sreeja'
+names
+'Niharika Pavitra Sreeja'
+names.center(50,'-')
+'-------------Niharika Pavitra Sreeja--------------'
+names.center(30,'*')
+'***Niharika Pavitra Sreeja****'
+names.center(40,'.')
+'........Niharika Pavitra Sreeja.........'
+name.ljust(30,'-')
+Traceback (most recent call last):
+  File "<pyshell#66>", line 1, in <module>
+    name.ljust(30,'-')
+NameError: name 'name' is not defined. Did you mean: 'fname'?
+names.ljust(30,'-')
+'Niharika Pavitra Sreeja-------'
+names.rjust(30,'-')
+'-------Niharika Pavitra Sreeja'
+names.ljust(25,'*')
+'Niharika Pavitra Sreeja**'
+names.ljust(20,'*')
+'Niharika Pavitra Sreeja'
+names.ljust(10,'-')
+'Niharika Pavitra Sreeja'
+'5'.zfill(5)
+'00005'
+'23'.zfill(6)
+'000023'
+'22746371'.zfill(7)
+'22746371'
+names
+'Niharika Pavitra Sreeja'
+names.find('N')
+0
+names.find('i')
+1
+names.find('v')
+11
+names.find('i')
+1
+names.rfind('i')
+12
+names.rfind('a')
+22
+names.find('z')
+-1
+names.lfind('a')
+Traceback (most recent call last):
+  File "<pyshell#83>", line 1, in <module>
+    names.lfind('a')
+AttributeError: 'str' object has no attribute 'lfind'. Did you mean: 'find'?
+>>> names.rfind('i')
+12
+>>> names.index('a')
+3
+>>> names
+'Niharika Pavitra Sreeja'
+>>> names.rindex('a')
+22
+>>> names.index('z')
+Traceback (most recent call last):
+  File "<pyshell#88>", line 1, in <module>
+    names.index('z')
+ValueError: substring not found
+>>> names.count('a')
+5
+>>> names.count('')
+24
+>>> names.count(' ')
+2
+>>> names.count('b')
+0
+>>> names
+'Niharika Pavitra Sreeja'
+>>> names.replace('a','l')
+'Nihlrikl Plvitrl Sreejl'
+>>> names.replace('pavitra','srinidhi')
+'Niharika Pavitra Sreeja'
+>>> names
+'Niharika Pavitra Sreeja'
+>>> names.replace('Pavitra','srinidhi')
+'Niharika srinidhi Sreeja'
+>>> names
+'Niharika Pavitra Sreeja'
+>>> names.remove()
+Traceback (most recent call last):
+  File "<pyshell#99>", line 1, in <module>
+    names.remove()
+AttributeError: 'str' object has no attribute 'remove'
+>>> names.replace('aeiou','12345')
+'Niharika Pavitra Sreeja'
+>>> names.maketrans('aeiou','12345')
+{97: 49, 101: 50, 105: 51, 111: 52, 117: 53}
+>>> names.translate(names.maketrans('aeiou','12345'))
+'N3h1r3k1 P1v3tr1 Sr22j1'

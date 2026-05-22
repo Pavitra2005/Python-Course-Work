@@ -1,0 +1,16 @@
+String:
+-------
+string is immutable
+string allows duplicates
+
+operations:
+-----------
+1.concatenation
+2.repetation
+3.indexing  
+4.slicing - var[start:stop+1:step]
+5.membership
+
+we have two types of indexing:
+1.positive indexing -starts from 0 and ends with (length-1)
+2.negative indexing -starts from -1 

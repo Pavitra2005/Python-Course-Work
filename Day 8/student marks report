@@ -1,0 +1,28 @@
+
+data={
+    'pavitra':{'status':True,'python':80,'mysql':90,'flask':80},
+    'niharika':{'status':True,'python':55,'mysql':45,'flask':88},
+    'pooji':{'status':False,'python':None,'mysql':None,'flask':None},
+    'deepi':{'status':True,'python':45,'mysql':56,'flask':67},
+    'vyshu':{'status':True,'python':67,'mysql':53,'flask':67},
+    'mahi':{'status':False,'python':None,'mysql':None,'flask':None}
+    }
+
+name = input("Enter the student name: ")
+if name in data:
+    print(name,"'s Report:")
+    if data[name]['status']:
+        avg = (data[name]['python']+data[name]['mysql']+data[name]['flask'])/3
+        if avg>80:
+            print('Congrations, Well Done')
+        elif avg>60:
+            print('Good, Improvement needed')
+        elif avg>35:
+            print('Just Passed, Better luck next time')
+        else:
+            print("Failed in the exam. Please bring your parents")
+    else:
+        print("Didn't attempt the exam.")
+else:
+    print(name,"'s data is not found")
+            

@@ -1,0 +1,47 @@
+Type conversions:
+-----------------
+int ----->float,complex,str,bool
+float ---->int,complex,str,bool
+complex ---->str,bool
+str ------>int(numerics),float(numerics),complex(numerics),list,tuple,set,bool
+list ------>str,tuple,set,bool
+tuple ---->str,list,set,bool
+set --------->str,list,tuple,bool
+dict ------->str,list,tuple,set,bool
+bool -------->int,float,complex,str
+
+
+print statements:
+------------------
+a=10
+         
+b=10.2
+         
+c='python'
+         
+print(a,b,c)  
+10 10.2 python
+
+print('a=',a,'b=',b,'c=',c)   
+a= 10 b= 10.2 c= python
+
+print('a=',a,'b=',b,'c=',c,sep='') 
+a=10b=10.2c=python
+
+print('a=',a,'b=',b,'c=',c,sep='\n')      
+a=
+10
+b=
+10.2
+c=
+python
+
+print('a=',a,'b=',b,'c=',c,sep='\t')        
+a=	10	b=	10.2	c=	python
+
+print('a=',a,'b=',b,'c=',c,sep='\t',end='\n\n')     
+a=	10	b=	10.2	c=	python
+
+print('a=',a,'b=',b,'c=',c,sep='\t',end='@@@') 
+a=	10	b=	10.2	c=	python@@@
+

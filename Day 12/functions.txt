@@ -1,0 +1,25 @@
+functions:
+---------
+function is a reusable block of code that performs specific task
+
+why we use functions:
+--------------------
+1.reusability
+2.time efficiency
+3.maintanence
+4.avoid repetation
+5.readability
+6.memory efficient
+7.Easy to Debug
+8.Easy to understand
+9.modularity
+10.Debugging
+
+
+syntax:
+-------
+def function_name(agr):
+  #stmt
+  return
+
+function_name(para)
