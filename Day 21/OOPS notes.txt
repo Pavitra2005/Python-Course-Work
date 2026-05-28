@@ -1,0 +1,11 @@
+OOPS:
+-----
+*OOPS means object oriented programming language.
+*we organize code using classes and objects.
+*class consist of variables and functions.
+*In oops variables are called as attributes and functions is called methods
+*object is an instance of class
+*Polymorphism means same method but different actions
+*Inheritance means one class inherit the properties from another class
+*Encapsulation means Binding data and functions together inside a class
+*Abstraction means showing only important details and hiding internal implementation
